@@ -41,6 +41,13 @@ install(
 
 install(
     FILES
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/vk_mem_alloc.cppm
+    DESTINATION
+        src
+)
+
+install(
+    FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/cmake/VulkanMemoryAllocator-HppConfig.cmake
     DESTINATION
         lib/cmake/VulkanMemoryAllocator-Hpp
